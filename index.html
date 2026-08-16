@@ -1,14 +1,135 @@
 <!DOCTYPE html>
 <html lang="lt">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ZoneOutMC</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#35e85f">
+  <meta name="description" content="ZoneOutMC – lietuviškas Minecraft serverių tinklas.">
+  <title>ZoneOutMC – Lietuviškas Minecraft serveris</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <h1>ZoneOutMC</h1>
-    <p>Lietuviškas Minecraft serverių tinklas.</p>
+<header class="site-header">
+  <div class="container nav-wrap">
+    <a class="brand" href="#top">
+      <div class="brand-mark">Z</div>
+      <div>
+        <div class="brand-name"><span>ZONE</span><strong>OUT</strong><span>MC</span></div>
+        <div class="brand-sub">MINIGAMES • SURVIVAL • HARDCORE</div>
+      </div>
+    </a>
 
+    <nav class="main-nav">
+      <a href="#top">Pagrindinis</a>
+      <a href="#games">Minigames</a>
+      <a href="#status">Statusas</a>
+      <a href="#news">Naujienos</a>
+      <a href="#discord">Discord</a>
+    </nav>
+
+    <button class="ip-chip copy-ip" data-ip="play.zoneoutmc.lt">
+      <span>play.zoneoutmc.lt</span><span>⧉</span>
+    </button>
+  </div>
+</header>
+
+<main id="top">
+  <section class="hero">
+    <div class="container hero-grid">
+      <div class="hero-copy">
+        <div class="eyebrow">SVEIKI ATVYKĘ Į</div>
+        <h1><span>ZONE</span><strong>OUT</strong><span>MC</span></h1>
+        <p>Lietuviškas Minecraft serverių tinklas su išskirtiniais minigame'ais, progresijos sistema ir aktyvia bendruomene.</p>
+        <div class="hero-actions">
+          <button class="btn btn-primary copy-ip" data-ip="play.zoneoutmc.lt">Kopijuoti IP</button>
+          <a class="btn btn-secondary" href="#discord">Discord</a>
+        </div>
+      </div>
+
+      <aside class="status-card" id="status">
+        <div class="status-title"><span class="status-dot"></span> SERVERIO STATUSAS</div>
+        <div class="status-main">ONLINE</div>
+        <div class="status-label">Prisijungę žaidėjai</div>
+        <div class="status-count"><strong id="onlineCount">1</strong> / <span>500</span></div>
+        <button class="status-ip copy-ip" data-ip="play.zoneoutmc.lt">
+          play.zoneoutmc.lt <span>⧉</span>
+        </button>
+      </aside>
+    </div>
+  </section>
+
+  <section class="feature-strip">
+    <div class="container features-grid">
+      <article class="feature"><div class="feature-icon">👥</div><div><h3>AKTYVI BENDRUOMENĖ</h3><p>Draugiška lietuviška bendruomenė ir renginiai.</p></div></article>
+      <article class="feature"><div class="feature-icon">🛡</div><div><h3>SAUGUMAS</h3><p>Nuolat tobulinama apsauga ir moderavimo sistemos.</p></div></article>
+      <article class="feature"><div class="feature-icon">🎁</div><div><h3>ATNAUJINIMAI</h3><p>Nauji žaidimai, sistemos, reward'ai ir sezonai.</p></div></article>
+      <article class="feature"><div class="feature-icon">⚡</div><div><h3>MAŽAS PING</h3><p>Optimizuotas serveris sklandžiam žaidimui.</p></div></article>
+    </div>
+  </section>
+
+  <section class="section section-light" id="games">
+    <div class="container">
+      <div class="section-heading">
+        <p class="section-kicker">ZONEOUTMC</p>
+        <h2>MŪSŲ MINIGAMES</h2>
+        <p>Unikalūs ir klasikiniai Minecraft režimai mūsų stiliumi.</p>
+      </div>
+
+      <div class="games-grid">
+        <article class="game-card"><div class="game-image"><span class="coming">GREITAI</span></div><div class="game-body"><h3>ZONEWALLS</h3><p>Pasiruošk, rink resursus, lauk sienų kritimo ir kovok dėl pergalės.</p></div></article>
+        <article class="game-card"><div class="game-image game-wool"><span class="coming">GREITAI</span></div><div class="game-body"><h3>ZONEWOOL</h3><p>Race for the Wool stiliaus komandinis žaidimas su ZoneOutMC prieskoniu.</p></div></article>
+        <article class="game-card"><div class="game-image game-race"><span class="coming">GREITAI</span></div><div class="game-body"><h3>ZONERACE</h3><p>Parkour lenktynės: Classic, Checkpoints ir Elimination režimai.</p></div></article>
+        <article class="game-card"><div class="game-image game-builders"><span class="coming">GREITAI</span></div><div class="game-body"><h3>ZONEBUILDERS</h3><p>Įsimink statinį ir atkartok jį kuo tiksliau bei greičiau.</p></div></article>
+        <article class="game-card"><div class="game-image game-uhc"><span class="coming">GREITAI</span></div><div class="game-body"><h3>ZONEUHC</h3><p>Ultra Hardcore patirtis su mūsų eventais, reward'ais ir sistemomis.</p></div></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="news">
+    <div class="container content-grid">
+      <article class="panel">
+        <div class="panel-head"><span>🚩</span><h3>NAUJIENOS</h3></div>
+        <div class="news-item">
+          <div class="date-box"><strong>16</strong><span>RGP</span></div>
+          <div><h4>ZoneOutMC kūrimas prasidėjo</h4><p>Ruošiame serverio sistemas, minigame'us ir naują svetainę.</p><span class="tag">NAUJA</span></div>
+        </div>
+      </article>
+
+      <article class="panel">
+        <div class="panel-head"><span>🏆</span><h3>TOP ŽAIDĖJAI</h3></div>
+        <div class="leaderboard">
+          <div><span>#1</span><strong>Spliffas</strong><b>2,450</b></div>
+          <div><span>#2</span><strong>Zonietis</strong><b>1,985</b></div>
+          <div><span>#3</span><strong>Legenda</strong><b>1,420</b></div>
+        </div>
+      </article>
+
+      <article class="panel" id="discord">
+        <div class="panel-head"><span>💬</span><h3>DISCORD</h3></div>
+        <p>Prisijunk prie mūsų bendruomenės, sek naujienas ir dalyvauk renginiuose.</p>
+        <a class="btn btn-outline" href="#" onclick="return false;">DISCORD – GREITAI</a>
+      </article>
+    </div>
+  </section>
+
+  <section class="cta-section">
+    <div class="container cta-box">
+      <div><p class="section-kicker">PASIRUOŠĘS?</p><h2>PRISIJUNK PRIE ZONEOUTMC</h2><p>Nukopijuok serverio IP ir prisijunk, kai serveris bus atidarytas.</p></div>
+      <button class="btn btn-primary copy-ip" data-ip="play.zoneoutmc.lt">play.zoneoutmc.lt</button>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container footer-wrap">
+    <div class="brand-name small"><span>ZONE</span><strong>OUT</strong><span>MC</span></div>
+    <p>© 2026 ZoneOutMC. Visos teisės saugomos.</p>
+    <div class="footer-links"><a href="#">Taisyklės</a><a href="#">Privatumas</a><a href="#">Kontaktai</a></div>
+  </div>
+</footer>
+
+<div class="toast" id="toast">IP nukopijuotas!</div>
+<script src="script.js"></script>
 </body>
 </html>
